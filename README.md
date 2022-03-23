@@ -13,12 +13,16 @@
 
 ### test1.js
 
-    - Step1:安装 octokit
+    [X] Step1: 安装 octokit
 
-    - Step1 - auth: [https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token]
+    [X] Step1 - auth: [https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token]
 
-    - Step2 - octokit API：[github.com/octokit/octokit.js#readme]
+    [X] Step2 - octokit API：[github.com/octokit/octokit.js#readme]
 
-    - Step3 - issues（`切记`）
+    [X] Step3 - issues（`切记`）
         - owner: github 的 username
         - repo: 仓库名
+
+### test2.js
+
+    [X] 添加 body
