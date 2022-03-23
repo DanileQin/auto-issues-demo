@@ -1,0 +1,6 @@
+name: "auto issues demo"
+description: "auto issues demo"
+
+runs:
+  using: "node12"
+  main: "dist/ndex.js"
