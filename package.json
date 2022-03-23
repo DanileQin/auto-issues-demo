@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/DanileQin/auto-issues-demo#readme",
   "dependencies": {
-    "octokit": "^1.7.1"
+    "octokit": "1.7.0"
   }
 }
