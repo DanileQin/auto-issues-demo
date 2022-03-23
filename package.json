@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/DanileQin/auto-issues-demo#readme",
   "dependencies": {
+    "@actions/core": "^1.6.0",
     "@vercel/ncc": "^0.33.3",
     "octokit": "1.7.0"
   }
