@@ -10,4 +10,7 @@ jobs:
           
         - name: create_issues_actions
           uses: ./
+
+          with:
+            token: ${{secrets.ACTIONS_DEMO_TOKEN}}
         

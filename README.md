@@ -35,3 +35,5 @@
     [X] 安装 @vercel/ncc,解决node版本过高的问题
 
     [X] "build": "ncc build index.js --license licenses.txt"
+
+    [X] 明文转为非明文

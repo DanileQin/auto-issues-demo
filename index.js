@@ -1,7 +1,9 @@
+// nodejs12
 const { Octokit } = require("octokit");
+// 此库是获取 github 的获取动态参数
 const core = require("@actions/core");
 const dayjs = require("dayjs");
-// nodejs12
+
 
 const token = core.getInput("token");
 const octokit = new Octokit({
