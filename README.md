@@ -37,3 +37,5 @@
     [X] "build": "ncc build index.js --license licenses.txt"
 
     [X] 明文转为非明文
+
+    [X] 重新 build

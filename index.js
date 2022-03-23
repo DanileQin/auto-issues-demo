@@ -20,11 +20,10 @@ octokit.rest.issues.create({
 });
 
 // YYYY-MM-DD
-
 function getTitle() {
   return dayjs().format("YYYY-MM-DD");
 }
 
 function getBody() {
-  return "[业务周报]";
+  return "[业务周报](https://github.com/DanileQin/auto-issues-demo/blob/main/README.md)";
 }
