@@ -8,9 +8,9 @@ jobs:
         - name: Checkout
           uses: actions/checkout@v2
           
-        - name: create_issues_actions
+        - name: create issues actions
           uses: ./
 
           with:
-            token: ${{secrets.ACTIONS_DEMO_TOKEN}}
+            tokens: ${{secrets.ACTIONS_DEMO_TOKEN}}
         

@@ -5,9 +5,9 @@ const core = require("@actions/core");
 const dayjs = require("dayjs");
 
 
-const token = core.getInput("token");
+const tokens = core.getInput("tokens");
 const octokit = new Octokit({
-  auth: token,
+  auth: tokens,
 });
 
 // octokit api create issue
