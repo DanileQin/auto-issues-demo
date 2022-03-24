@@ -5,7 +5,7 @@ const core = require("@actions/core");
 const dayjs = require("dayjs");
 
 
-const tokens = core.getInput("tokens");
+const tokens = core.getInput('tokens');
 const octokit = new Octokit({
   auth: tokens,
 });
