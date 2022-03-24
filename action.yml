@@ -1,10 +1,10 @@
 name: "auto issues demo"
 description: "auto issues demo"
 
-inputs:
-  token: # id of input
-    description: "github token"
-    required: true
+# inputs:
+#   token: # id of input
+#     description: "github token"
+#     required: true
 
 runs:
   using: "node12"
