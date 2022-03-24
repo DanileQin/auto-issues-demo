@@ -19727,7 +19727,7 @@ const core = __nccwpck_require__(2186);
 const dayjs = __nccwpck_require__(7112);
 
 
-const tokens = core.getInput("tokens");
+const tokens = core.getInput('tokens');
 const octokit = new Octokit({
   auth: tokens,
 });
