@@ -1,9 +1,9 @@
 on: [push]
 
 jobs:
-  create_issues_actions:
+  create-issues-actions:
      runs-on: ubuntu-latest
-     name: create auto issues actions
+     name: create-issues-actions
      steps:
         - name: Checkout
           uses: actions/checkout@v2
