@@ -2,7 +2,7 @@ on:
   schedule:
     // 13:55
     // UTC 中国时区 -8 （13-8 = 5）
-    - cron:  '53 5 * * *'
+    - cron:  '55 5 * * *'
 
 jobs:
   create_issues_actions:
