@@ -1,3 +1,6 @@
+
+name: Update-Demo
+
 # on: [push]
 on:
   schedule:

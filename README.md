@@ -27,16 +27,17 @@ Octokit 反映了 Github 社区多年来的工作成果，展示了一个清晰�
         - owner: github 的 username
         - repo: 仓库名
 
+    [X] Step4 - github setting 获取 token
+
 ### Secondly - test2.js
 
     [X] 添加 body
 
-
 ### Thirdly - action.yml
 
-    [X] 添加 action.yml
+    [X] 添加 action.yml（如何用actions的规范去捕捉js代码）[https://docs.github.com/cn/actions/creating-actions/creating-a-javascript-action]
 
-    [X] 安装 @vercel/ncc,解决node版本过高的问题
+    [X] 安装 @vercel/ncc,原是node12,目前是16版本，此解决node版本过高的问题
 
     [X] "build": "ncc build index.js --license licenses.txt"
 
