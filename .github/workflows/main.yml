@@ -14,7 +14,7 @@ jobs:
      steps:
         - name: Checkout
           uses: actions/checkout@v2
-          run: echo "下载成功"
+          # run: echo "下载成功"
           
         - name: create issues actions
           uses: ./
