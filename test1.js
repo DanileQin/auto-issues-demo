@@ -12,7 +12,7 @@ console.log('print-1-start')
 octokit.rest.issues.create({
     owner: "DanileQin",
     repo: "auto-issues-demo",
-    title: "Creat Test1",
+    title: "Creat Test1 --- 0325",
   });
 
 console.log('print-1-end')
