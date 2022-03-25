@@ -13,9 +13,9 @@ jobs:
      name: create-issues-actions
      steps:
         - name: Checkout
-        - uses: actions/checkout@v2
+          uses: actions/checkout@v2
           # - run: git clone xxx
-        - run: echo "下载成功"
+          # run: echo "下载成功"
           
         - name: create issues actions
           uses: ./
