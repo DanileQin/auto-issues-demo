@@ -2,6 +2,10 @@
 
 ### 🔥 介绍 octokit
 
+Octokit ，这是 Github 维护的一个新的使用 GitHub API 的客户端库。
+
+Octokit 反映了 Github 社区多年来的工作成果，展示了一个清晰的如何自底向上的开发例子，以及在应用中如何跟 Github API 进行交互。
+
 - NPM：[https://www.npmjs.com/package/octokit]
 - 官网：[https://github.com/octokit/octokit.js#readme]
 
