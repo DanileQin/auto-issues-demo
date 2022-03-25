@@ -29,9 +29,13 @@ Octokit 反映了 Github 社区多年来的工作成果，展示了一个清晰�
 
     [X] Step4 - github setting 获取 token
 
+    [X] Step5 - node text1.js 运行
+
 ### Secondly - test2.js
 
     [X] 添加 body
+
+    [X] Step1 - node text2.js 运行
 
 ### Thirdly - action.yml
 
