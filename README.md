@@ -39,7 +39,7 @@ Octokit 反映了 Github 社区多年来的工作成果，展示了一个清晰�
 
 ### Thirdly - action.yml
 
-    [X] 添加 action.yml（如何用actions的规范去捕捉js代码）[https://docs.github.com/cn/actions/creating-actions/creating-a-javascript-action]
+    [X] 添加 action.yml（如何用github actions的规范去捕捉js代码）[https://docs.github.com/cn/actions/creating-actions/creating-a-javascript-action]
 
     [X] 安装 @vercel/ncc,原是node12,目前是16版本，此解决node版本过高的问题
 

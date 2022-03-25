@@ -4,7 +4,7 @@ const { Octokit } = require('octokit');
 
 // TODO auth 
 const octokit = new Octokit({
-    auth: `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`
+    auth: `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`
 });
 
 console.log('print-1-start')
