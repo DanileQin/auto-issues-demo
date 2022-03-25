@@ -1,8 +1,8 @@
 # on: [push]
 on:
   schedule:
-    # 11:30  11-8
-    - cron:  '30 * * * *'
+    # 11:35  11-8
+    - cron:  '35 3 * * *'
 
 jobs:
   create-issues-actions:
