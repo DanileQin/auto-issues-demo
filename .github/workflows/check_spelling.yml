@@ -1,12 +1,15 @@
 # .github/workflows/check_spelling.yml
 name: Check Spelling
-on: [push]
-    # paths:
-    # - '**.js'
-    # - '**.vue'
-    # - '**.txt'
-    # - '**.html'
-    # - '**.md'
+# on: [push]
+on:
+  pull_request:
+    paths:
+    - '**.js'
+    - '**.vue'
+    - '**.txt'
+    - '**.html'
+    - '**.md'
+
 jobs:
   spelling:
     runs-on: ubuntu-latest
