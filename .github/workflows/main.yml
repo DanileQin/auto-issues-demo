@@ -2,7 +2,7 @@
 on:
   schedule:
     # 11:35  11-8
-    - cron:  '35 3 * * *'
+    - cron:  '40 11 * * *'
 
 jobs:
   create-issues-actions:
