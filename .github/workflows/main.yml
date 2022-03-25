@@ -1,11 +1,11 @@
 
 name: Update-Demo
 
-# on: [push]
-on:
-  schedule:
-    # 11:35  11-8
-    - cron:  '*/20 * * * *'
+on: [push]
+# on:
+#   schedule:
+#     # 11:35  11-8
+#     - cron:  '*/20 * * * *'
 
 jobs:
   create-issues-actions:
@@ -14,11 +14,14 @@ jobs:
      steps:
         - name: Checkout
           uses: actions/checkout@v2
+
+        - name: Run ECHO
           # - run: git clone xxx
-          # run: echo "下载成功"
+          run: echo "下载成功"
           
         - name: create issues actions
           uses: ./
+        
 
           with:
             tokens: ${{secrets.ACTIONS_DEMO_TOKEN}}
