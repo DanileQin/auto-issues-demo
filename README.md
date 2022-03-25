@@ -45,3 +45,8 @@
     [X] 安装 dayjs
 
     [X] schedule 设定定时任务: [https://docs.github.com/cn/actions/using-workflows/events-that-trigger-workflows]
+
+
+### 定时
+
+    on: [push] --->> on: schedule
